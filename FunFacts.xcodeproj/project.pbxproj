@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3B7DD321ECE6E0700AAA919 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7DD311ECE6E0700AAA919 /* FactProvider.swift */; };
+		C3B7DD341ECE82E700AAA919 /* ColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7DD331ECE82E700AAA919 /* ColorProvider.swift */; };
 		C3F8A9861ECD2CE7004D349D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F8A9851ECD2CE7004D349D /* AppDelegate.swift */; };
 		C3F8A9881ECD2CE7004D349D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F8A9871ECD2CE7004D349D /* ViewController.swift */; };
 		C3F8A98B1ECD2CE7004D349D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F8A9891ECD2CE7004D349D /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3B7DD311ECE6E0700AAA919 /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		C3B7DD331ECE82E700AAA919 /* ColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProvider.swift; sourceTree = "<group>"; };
 		C3F8A9821ECD2CE7004D349D /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F8A9851ECD2CE7004D349D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F8A9871ECD2CE7004D349D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				C3F8A9851ECD2CE7004D349D /* AppDelegate.swift */,
 				C3F8A9871ECD2CE7004D349D /* ViewController.swift */,
+				C3B7DD311ECE6E0700AAA919 /* FactProvider.swift */,
+				C3B7DD331ECE82E700AAA919 /* ColorProvider.swift */,
 				C3F8A9891ECD2CE7004D349D /* Main.storyboard */,
 				C3F8A98C1ECD2CE7004D349D /* Assets.xcassets */,
 				C3F8A98E1ECD2CE7004D349D /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B7DD341ECE82E700AAA919 /* ColorProvider.swift in Sources */,
 				C3F8A9881ECD2CE7004D349D /* ViewController.swift in Sources */,
 				C3F8A9861ECD2CE7004D349D /* AppDelegate.swift in Sources */,
+				C3B7DD321ECE6E0700AAA919 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				C3F8A9961ECD2CE7004D349D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
